@@ -1,0 +1,29 @@
+
+.desserts-container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.deserts-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 38px;
+}
+
+// ---------------Media queries---------------
+
+@media only screen and (max-width: 950px) {
+
+    .desserts-container {
+        padding-left: 0;
+    }
+
+    .deserts-title {
+        text-align: center;
+        margin-left: 0;
+    }
+}

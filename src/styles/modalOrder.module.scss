@@ -1,0 +1,56 @@
+
+.modal-order-wrapper {
+    background-color: hsl(20, 50%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid hsl(13, 31%, 94%);
+}
+
+.modal-order-image-title-price-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.modal-image-wrapper {
+    width: 55px;
+    height: fit-content;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.modal-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.modal-item-name {
+    color: hsl(14, 65%, 9%);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.modal-price-wrapper {
+   display: flex;
+}
+
+.modal-quantuty {
+    color: hsl(14, 86%, 42%);
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.modal-price {
+    color: hsl(7, 20%, 60%);
+}
+
+.modal-total-item-price {
+    color: hsl(14, 65%, 9%);
+    font-weight: 500;
+}

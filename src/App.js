@@ -1,9 +1,8 @@
-import ItemCard from './components/ItemCard';
-import './App.css';
+import MainPage from './components/MainPage';
 
 function App() {
   return (
-   <ItemCard/>
+      <MainPage/>
   );
 }
 

@@ -1,0 +1,22 @@
+
+.main-page-and-modal-wrapper {
+    position: relative;
+}
+
+.main-page-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: hsl(20, 50%, 98%);
+    max-width: 1500px;
+    margin: auto;
+}
+
+// ------------------Media queries--------------
+ @media only screen and (max-width: 950px) {
+    .main-page-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+ }

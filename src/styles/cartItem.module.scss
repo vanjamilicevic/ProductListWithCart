@@ -1,0 +1,46 @@
+
+.cart-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(13, 31%, 94%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.item-quantity-and-item-price-wrapper {
+    display: flex;
+}
+
+.item-name {
+    color: hsl(14, 65%, 9%);
+    font-weight: 600;
+    letter-spacing: -.2px;
+    margin-bottom: 10px;
+}
+
+.item-quantity {
+    color: hsl(14, 86%, 42%);
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.item-price {
+    color: hsl(14, 25%, 72%);
+    margin-right: 10px;
+}
+
+.total-item-price {
+    color: hsl(7, 20%, 60%);
+    font-weight: 500;
+}
+
+.close-sign-wrapper {
+    width: 18px;
+    height: 18px;
+    border: 1px solid hsl(14, 25%, 72%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

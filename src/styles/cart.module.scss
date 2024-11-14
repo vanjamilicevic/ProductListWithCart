@@ -1,0 +1,100 @@
+
+.cart-wrapper {
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.cart-title {
+    color: hsl(14, 86%, 42%);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.empty-cart-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-description {
+    color: hsl(7, 20%, 60%);
+    font-weight: 500;
+}
+
+.total-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.order-total {
+    color: hsl(14, 65%, 9%);
+    letter-spacing: -.3px;
+}
+
+.total-price {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.carbon-neutral-delivery-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(20, 50%, 98%);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.carbon-neutral-image {
+    margin-right: 10px;
+}
+
+.carbon-neutral {
+    color: hsl(14, 65%, 9%);
+    letter-spacing: -.4px;
+}
+
+.carbon-neutral-span {
+    font-weight: 600;
+}
+
+.confirm-order-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    background-color: hsl(14, 86%, 42%);
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.confirm-order-button-text {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+// ----------------Media queries--------------
+
+@media only screen and (max-width: 950px) {
+    .cart-wrapper {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .cart-wrapper {
+        width: 95%;
+    }
+}

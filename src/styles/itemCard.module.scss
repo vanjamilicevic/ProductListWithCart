@@ -1,4 +1,129 @@
 
 .card-container {
-    background-color: red;
+    max-width: 300px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.img-wrapper {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: -30px;
+}
+
+.img-wrapper-clicked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: -30px;
+    border: 2px solid hsl(14, 86%, 42%);
+    background-color: hsl(14, 86%, 42%);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.add-to-cart-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 170px;
+    padding: 12px;
+    border: 2px solid hsl(14, 25%, 72%);
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.add-to-cart {
+    font-weight: 600;
+    letter-spacing: -0.7px;
+}
+
+.cart-icon {
+    margin-right: 7px;
+}
+
+.name-and-price-wrapper {
+    margin-top: 15px;
+}
+
+.product-name {
+    color: hsl(7, 20%, 60%);
+    margin-bottom: 3px;
+}
+
+.product-description {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    margin-bottom: 3px;
+}
+
+.price {
+    font-size: 18px;
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+    letter-spacing: -0.4px;
+}
+
+.add-to-cart-wrapper-clicked {
+    position: relative;
+    z-index: 1;
+    width: 170px;
+    padding: 12px;
+    border: 2px solid hsl(14, 86%, 42%);
+    border-radius: 30px;
+    background-color: hsl(14, 86%, 42%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.minus-wrapper,
+.plus-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 17px;
+    height: 16px;
+}
+
+.item-count {
+    color: white;
+}
+
+// -------------------Media queries--------------------
+
+@media only screen and (max-width: 1445px) {
+    .card-container {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .card-container {
+        max-width: 600px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .card-container {
+        width: 95%;
+        margin-bottom: 30px;
+    }
 }
